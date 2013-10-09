@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B09215211804ECD30046F890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09215201804ECD30046F890 /* Foundation.framework */; };
+		B09215231804ECD30046F890 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09215221804ECD30046F890 /* CoreGraphics.framework */; };
+		B09215251804ECD30046F890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09215241804ECD30046F890 /* UIKit.framework */; };
+		B092152B1804ECD30046F890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B09215291804ECD30046F890 /* InfoPlist.strings */; };
+		B092152D1804ECD30046F890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B092152C1804ECD30046F890 /* main.m */; };
+		B09215311804ECD30046F890 /* PMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B09215301804ECD30046F890 /* PMLAppDelegate.m */; };
+		B09215341804ECD30046F890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09215321804ECD30046F890 /* Main.storyboard */; };
+		B09215371804ECD30046F890 /* PMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B09215361804ECD30046F890 /* PMLViewController.m */; };
+		B09215391804ECD30046F890 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09215381804ECD30046F890 /* Images.xcassets */; };
+		B09215401804ECD30046F890 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B092153F1804ECD30046F890 /* XCTest.framework */; };
+		B09215411804ECD30046F890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09215201804ECD30046F890 /* Foundation.framework */; };
+		B09215421804ECD30046F890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09215241804ECD30046F890 /* UIKit.framework */; };
+		B092154A1804ECD30046F890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B09215481804ECD30046F890 /* InfoPlist.strings */; };
+		B092154C1804ECD30046F890 /* Ski_BumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B092154B1804ECD30046F890 /* Ski_BumTests.m */; };
+		B09215581804EF190046F890 /* SkiBum.png in Resources */ = {isa = PBXBuildFile; fileRef = B09215571804EF190046F890 /* SkiBum.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B09215431804ECD30046F890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B09215151804ECD30046F890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B092151C1804ECD30046F890;
+			remoteInfo = "Ski Bum";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B092151D1804ECD30046F890 /* Ski Bum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ski Bum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09215201804ECD30046F890 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B09215221804ECD30046F890 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B09215241804ECD30046F890 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B09215281804ECD30046F890 /* Ski Bum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ski Bum-Info.plist"; sourceTree = "<group>"; };
+		B092152A1804ECD30046F890 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B092152C1804ECD30046F890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B092152E1804ECD30046F890 /* Ski Bum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ski Bum-Prefix.pch"; sourceTree = "<group>"; };
+		B092152F1804ECD30046F890 /* PMLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMLAppDelegate.h; sourceTree = "<group>"; };
+		B09215301804ECD30046F890 /* PMLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMLAppDelegate.m; sourceTree = "<group>"; };
+		B09215331804ECD30046F890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B09215351804ECD30046F890 /* PMLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMLViewController.h; sourceTree = "<group>"; };
+		B09215361804ECD30046F890 /* PMLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMLViewController.m; sourceTree = "<group>"; };
+		B09215381804ECD30046F890 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B092153E1804ECD30046F890 /* Ski BumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ski BumTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B092153F1804ECD30046F890 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B09215471804ECD30046F890 /* Ski BumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ski BumTests-Info.plist"; sourceTree = "<group>"; };
+		B09215491804ECD30046F890 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B092154B1804ECD30046F890 /* Ski_BumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ski_BumTests.m; sourceTree = "<group>"; };
+		B09215571804EF190046F890 /* SkiBum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SkiBum.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B092151A1804ECD30046F890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09215231804ECD30046F890 /* CoreGraphics.framework in Frameworks */,
+				B09215251804ECD30046F890 /* UIKit.framework in Frameworks */,
+				B09215211804ECD30046F890 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B092153B1804ECD30046F890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09215401804ECD30046F890 /* XCTest.framework in Frameworks */,
+				B09215421804ECD30046F890 /* UIKit.framework in Frameworks */,
+				B09215411804ECD30046F890 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B09215141804ECD30046F890 = {
+			isa = PBXGroup;
+			children = (
+				B09215261804ECD30046F890 /* Ski Bum */,
+				B09215451804ECD30046F890 /* Ski BumTests */,
+				B092151F1804ECD30046F890 /* Frameworks */,
+				B092151E1804ECD30046F890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B092151E1804ECD30046F890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B092151D1804ECD30046F890 /* Ski Bum.app */,
+				B092153E1804ECD30046F890 /* Ski BumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B092151F1804ECD30046F890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B09215201804ECD30046F890 /* Foundation.framework */,
+				B09215221804ECD30046F890 /* CoreGraphics.framework */,
+				B09215241804ECD30046F890 /* UIKit.framework */,
+				B092153F1804ECD30046F890 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B09215261804ECD30046F890 /* Ski Bum */ = {
+			isa = PBXGroup;
+			children = (
+				B092152F1804ECD30046F890 /* PMLAppDelegate.h */,
+				B09215301804ECD30046F890 /* PMLAppDelegate.m */,
+				B09215321804ECD30046F890 /* Main.storyboard */,
+				B09215351804ECD30046F890 /* PMLViewController.h */,
+				B09215361804ECD30046F890 /* PMLViewController.m */,
+				B09215381804ECD30046F890 /* Images.xcassets */,
+				B09215571804EF190046F890 /* SkiBum.png */,
+				B09215271804ECD30046F890 /* Supporting Files */,
+			);
+			path = "Ski Bum";
+			sourceTree = "<group>";
+		};
+		B09215271804ECD30046F890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B09215281804ECD30046F890 /* Ski Bum-Info.plist */,
+				B09215291804ECD30046F890 /* InfoPlist.strings */,
+				B092152C1804ECD30046F890 /* main.m */,
+				B092152E1804ECD30046F890 /* Ski Bum-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B09215451804ECD30046F890 /* Ski BumTests */ = {
+			isa = PBXGroup;
+			children = (
+				B092154B1804ECD30046F890 /* Ski_BumTests.m */,
+				B09215461804ECD30046F890 /* Supporting Files */,
+			);
+			path = "Ski BumTests";
+			sourceTree = "<group>";
+		};
+		B09215461804ECD30046F890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B09215471804ECD30046F890 /* Ski BumTests-Info.plist */,
+				B09215481804ECD30046F890 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B092151C1804ECD30046F890 /* Ski Bum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B092154F1804ECD30046F890 /* Build configuration list for PBXNativeTarget "Ski Bum" */;
+			buildPhases = (
+				B09215191804ECD30046F890 /* Sources */,
+				B092151A1804ECD30046F890 /* Frameworks */,
+				B092151B1804ECD30046F890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ski Bum";
+			productName = "Ski Bum";
+			productReference = B092151D1804ECD30046F890 /* Ski Bum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B092153D1804ECD30046F890 /* Ski BumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09215521804ECD30046F890 /* Build configuration list for PBXNativeTarget "Ski BumTests" */;
+			buildPhases = (
+				B092153A1804ECD30046F890 /* Sources */,
+				B092153B1804ECD30046F890 /* Frameworks */,
+				B092153C1804ECD30046F890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B09215441804ECD30046F890 /* PBXTargetDependency */,
+			);
+			name = "Ski BumTests";
+			productName = "Ski BumTests";
+			productReference = B092153E1804ECD30046F890 /* Ski BumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B09215151804ECD30046F890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PML;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "postmechanical, LLC";
+				TargetAttributes = {
+					B092153D1804ECD30046F890 = {
+						TestTargetID = B092151C1804ECD30046F890;
+					};
+				};
+			};
+			buildConfigurationList = B09215181804ECD30046F890 /* Build configuration list for PBXProject "Ski Bum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B09215141804ECD30046F890;
+			productRefGroup = B092151E1804ECD30046F890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B092151C1804ECD30046F890 /* Ski Bum */,
+				B092153D1804ECD30046F890 /* Ski BumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B092151B1804ECD30046F890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09215581804EF190046F890 /* SkiBum.png in Resources */,
+				B09215391804ECD30046F890 /* Images.xcassets in Resources */,
+				B092152B1804ECD30046F890 /* InfoPlist.strings in Resources */,
+				B09215341804ECD30046F890 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B092153C1804ECD30046F890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B092154A1804ECD30046F890 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B09215191804ECD30046F890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09215371804ECD30046F890 /* PMLViewController.m in Sources */,
+				B09215311804ECD30046F890 /* PMLAppDelegate.m in Sources */,
+				B092152D1804ECD30046F890 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B092153A1804ECD30046F890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B092154C1804ECD30046F890 /* Ski_BumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B09215441804ECD30046F890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B092151C1804ECD30046F890 /* Ski Bum */;
+			targetProxy = B09215431804ECD30046F890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B09215291804ECD30046F890 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B092152A1804ECD30046F890 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B09215321804ECD30046F890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09215331804ECD30046F890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B09215481804ECD30046F890 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09215491804ECD30046F890 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B092154D1804ECD30046F890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B092154E1804ECD30046F890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B09215501804ECD30046F890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ski Bum/Ski Bum-Prefix.pch";
+				INFOPLIST_FILE = "Ski Bum/Ski Bum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B09215511804ECD30046F890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ski Bum/Ski Bum-Prefix.pch";
+				INFOPLIST_FILE = "Ski Bum/Ski Bum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B09215531804ECD30046F890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ski Bum.app/Ski Bum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ski Bum/Ski Bum-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ski BumTests/Ski BumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B09215541804ECD30046F890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ski Bum.app/Ski Bum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ski Bum/Ski Bum-Prefix.pch";
+				INFOPLIST_FILE = "Ski BumTests/Ski BumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B09215181804ECD30046F890 /* Build configuration list for PBXProject "Ski Bum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B092154D1804ECD30046F890 /* Debug */,
+				B092154E1804ECD30046F890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B092154F1804ECD30046F890 /* Build configuration list for PBXNativeTarget "Ski Bum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09215501804ECD30046F890 /* Debug */,
+				B09215511804ECD30046F890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B09215521804ECD30046F890 /* Build configuration list for PBXNativeTarget "Ski BumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09215531804ECD30046F890 /* Debug */,
+				B09215541804ECD30046F890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B09215151804ECD30046F890 /* Project object */;
+}
