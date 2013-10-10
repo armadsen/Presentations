@@ -22,7 +22,7 @@
 		B09216A7180655160046F890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B09216A5180655160046F890 /* InfoPlist.strings */; };
 		B09216A9180655160046F890 /* SkiBumMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B09216A8180655160046F890 /* SkiBumMenuTests.m */; };
 		B09216B4180655C00046F890 /* PMLCopyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B09216B3180655C00046F890 /* PMLCopyImageView.m */; };
-		B09216B7180656810046F890 /* PMLPasteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B09216B6180656810046F890 /* PMLPasteImageView.m */; };
+		B09216B7180656810046F890 /* PMLCutPasteAndFlipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B09216B6180656810046F890 /* PMLCutPasteAndFlipImageView.m */; };
 		B09216BB180659D00046F890 /* skibum-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B09216B8180659D00046F890 /* skibum-1.png */; };
 		B09216BC180659D00046F890 /* skibum-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B09216B9180659D00046F890 /* skibum-2.png */; };
 		B09216BD180659D00046F890 /* skibum-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B09216BA180659D00046F890 /* skibum-3.png */; };
@@ -60,8 +60,8 @@
 		B09216A8180655160046F890 /* SkiBumMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkiBumMenuTests.m; sourceTree = "<group>"; };
 		B09216B2180655C00046F890 /* PMLCopyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMLCopyImageView.h; sourceTree = "<group>"; };
 		B09216B3180655C00046F890 /* PMLCopyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMLCopyImageView.m; sourceTree = "<group>"; };
-		B09216B5180656810046F890 /* PMLPasteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMLPasteImageView.h; sourceTree = "<group>"; };
-		B09216B6180656810046F890 /* PMLPasteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMLPasteImageView.m; sourceTree = "<group>"; };
+		B09216B5180656810046F890 /* PMLCutPasteAndFlipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMLCutPasteAndFlipImageView.h; sourceTree = "<group>"; };
+		B09216B6180656810046F890 /* PMLCutPasteAndFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMLCutPasteAndFlipImageView.m; sourceTree = "<group>"; };
 		B09216B8180659D00046F890 /* skibum-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skibum-1.png"; sourceTree = "<group>"; };
 		B09216B9180659D00046F890 /* skibum-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skibum-2.png"; sourceTree = "<group>"; };
 		B09216BA180659D00046F890 /* skibum-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skibum-3.png"; sourceTree = "<group>"; };
@@ -131,8 +131,8 @@
 				B0921693180655160046F890 /* PMLViewController.m */,
 				B09216B2180655C00046F890 /* PMLCopyImageView.h */,
 				B09216B3180655C00046F890 /* PMLCopyImageView.m */,
-				B09216B5180656810046F890 /* PMLPasteImageView.h */,
-				B09216B6180656810046F890 /* PMLPasteImageView.m */,
+				B09216B5180656810046F890 /* PMLCutPasteAndFlipImageView.h */,
+				B09216B6180656810046F890 /* PMLCutPasteAndFlipImageView.m */,
 				B0921695180655160046F890 /* Images.xcassets */,
 				B09216B8180659D00046F890 /* skibum-1.png */,
 				B09216B9180659D00046F890 /* skibum-2.png */,
@@ -272,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B09216B7180656810046F890 /* PMLPasteImageView.m in Sources */,
+				B09216B7180656810046F890 /* PMLCutPasteAndFlipImageView.m in Sources */,
 				B0921694180655160046F890 /* PMLViewController.m in Sources */,
 				B092168E180655160046F890 /* PMLAppDelegate.m in Sources */,
 				B092168A180655160046F890 /* main.m in Sources */,

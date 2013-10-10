@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PMLPasteImageView : UIImageView
+@interface PMLCutPasteAndFlipImageView : UIImageView
 
 - (void)flip:(id)sender;
 

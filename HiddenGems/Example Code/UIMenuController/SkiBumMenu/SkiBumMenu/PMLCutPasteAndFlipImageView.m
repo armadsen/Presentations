@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 postmechanical, LLC. All rights reserved.
 //
 
-#import "PMLPasteImageView.h"
+#import "PMLCutPasteAndFlipImageView.h"
 
-@implementation PMLPasteImageView
+@implementation PMLCutPasteAndFlipImageView
 
 - (BOOL)canBecomeFirstResponder
 {
@@ -17,7 +17,11 @@
 
 - (BOOL)canPerformAction:(SEL)action withSender:(id)sender
 {
-    if (action == @selector(paste:) || (self.image != nil && action == @selector(flip:)))
+    if (action == @selector(paste:))
+    {
+        return YES;
+    }
+    else if (self.image != nil && (action == @selector(cut:) || action == @selector(flip:)))
     {
         return YES;
     }
@@ -32,6 +36,12 @@
 - (void)paste:(id)sender
 {
     self.image = [UIPasteboard generalPasteboard].image;
+}
+
+- (void)cut:(id)sender
+{
+    [UIPasteboard generalPasteboard].image = self.image;
+    self.image = nil;
 }
 
 #pragma mark - Customn actions

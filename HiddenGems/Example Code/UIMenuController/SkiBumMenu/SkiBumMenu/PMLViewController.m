@@ -8,7 +8,7 @@
 
 #import "PMLViewController.h"
 #import <QuartzCore/QuartzCore.h>
-#import "PMLPasteImageView.h"
+#import "PMLCutPasteAndFlipImageView.h"
 
 @interface PMLViewController ()
 
@@ -34,7 +34,7 @@
         self.currentView.layer.borderColor = [UIColor blueColor].CGColor;
         self.currentView.layer.borderWidth = 4.0f;
         UIMenuController *menuController = [UIMenuController sharedMenuController];
-        if ([self.currentView isKindOfClass:[PMLPasteImageView class]])
+        if ([self.currentView isKindOfClass:[PMLCutPasteAndFlipImageView class]])
         {
             menuController.menuItems = @[[[UIMenuItem alloc] initWithTitle:@"Flip" action:@selector(flip:)]];
         }
@@ -42,8 +42,8 @@
         {
             menuController.menuItems = nil;
         }
-        [menuController setTargetRect:self.currentView.frame inView:self.currentView.superview];
-        [menuController setMenuVisible:YES animated:NO];
+        [menuController setTargetRect:self.currentView.bounds inView:self.currentView];
+        [menuController setMenuVisible:YES animated:YES];
     }
 }
 
