@@ -17,16 +17,11 @@
 
 - (void)setNumPeople:(NSNumber *)numPeople
 {
-    if (numPeople != _numPeople) {
-        _numPeople = numPeople;
-        
-        NSString *string = [NSString localizedStringWithFormat:
-                              NSLocalizedString(@"%d people are in the room", @"number of people in the room label"), (long)[numPeople integerValue]];
-        NSLog(@"string: %@", string);
-        
-        NSString *lString = [[NSBundle mainBundle] localizedStringForKey:@"%d people are in the room" value:@"crap" table:nil];
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"Localizable" ofType:@"stringsdict"];
-    }
+	_numPeople = numPeople;
+	
+	NSString *string = [NSString localizedStringWithFormat:
+						NSLocalizedString(@"%d people are in the room", @"number of people in the room label"), (long)[numPeople integerValue]];
+	NSLog(@"string: %@", string);
 }
 
 @end
