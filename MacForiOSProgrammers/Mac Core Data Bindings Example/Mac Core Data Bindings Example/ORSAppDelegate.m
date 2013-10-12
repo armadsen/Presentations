@@ -18,7 +18,6 @@
 
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender
 {
-	
     NSError *error = nil;
     if (![self.database saveWithError:&error]) {
 
