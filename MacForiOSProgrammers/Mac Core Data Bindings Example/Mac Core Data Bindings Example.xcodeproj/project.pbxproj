@@ -121,15 +121,12 @@
 		9D342A0817FBB9260040CD81 /* Mac Core Data Bindings Example */ = {
 			isa = PBXGroup;
 			children = (
-				9D342A3917FBB9D30040CD81 /* Mac Core Data Bindings Example.entitlements */,
 				9D342A1417FBB9260040CD81 /* ORSAppDelegate.h */,
 				9D342A1517FBB9260040CD81 /* ORSAppDelegate.m */,
-				9D342A1717FBB9260040CD81 /* MainMenu.xib */,
-				9D342A1D17FBB9260040CD81 /* Images.xcassets */,
-				9D342A1A17FBB9260040CD81 /* Mac_Core_Data_Bindings_Example.xcdatamodeld */,
-				9D342A0917FBB9260040CD81 /* Supporting Files */,
 				9D342A3A17FBBA1C0040CD81 /* ORSDatabase.h */,
 				9D342A3B17FBBA1C0040CD81 /* ORSDatabase.m */,
+				9D9B906D180921C500BE9135 /* Resources */,
+				9D342A0917FBB9260040CD81 /* Supporting Files */,
 			);
 			path = "Mac Core Data Bindings Example";
 			sourceTree = "<group>";
@@ -162,6 +159,17 @@
 				9D342A2C17FBB9260040CD81 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D9B906D180921C500BE9135 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D342A3917FBB9D30040CD81 /* Mac Core Data Bindings Example.entitlements */,
+				9D342A1717FBB9260040CD81 /* MainMenu.xib */,
+				9D342A1D17FBB9260040CD81 /* Images.xcassets */,
+				9D342A1A17FBB9260040CD81 /* Mac_Core_Data_Bindings_Example.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,6 +496,7 @@
 				9D342A3517FBB9260040CD81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D342A3617FBB9260040CD81 /* Build configuration list for PBXNativeTarget "Mac Core Data Bindings ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +505,7 @@
 				9D342A3817FBB9260040CD81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
