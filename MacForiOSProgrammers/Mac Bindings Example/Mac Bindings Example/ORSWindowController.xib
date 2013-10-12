@@ -73,10 +73,10 @@
                             <binding destination="-2" name="value" keyPath="person.age" id="jDv-pd-Pzx">
                                 <dictionary key="options">
                                     <bool key="NSValidatesImmediately" value="YES"/>
-                                    <integer key="NSMultipleValuesPlaceholder" value="0"/>
+                                    <integer key="NSNullPlaceholder" value="0"/>
                                     <integer key="NSNotApplicablePlaceholder" value="0"/>
                                     <integer key="NSNoSelectionPlaceholder" value="0"/>
-                                    <integer key="NSNullPlaceholder" value="0"/>
+                                    <integer key="NSMultipleValuesPlaceholder" value="0"/>
                                     <bool key="NSContinuouslyUpdatesValue" value="YES"/>
                                 </dictionary>
                             </binding>
