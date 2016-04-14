@@ -16,6 +16,7 @@
 		9DC770F41CBF3ED200D1CDA8 /* HeroCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC770F31CBF3ED200D1CDA8 /* HeroCollectionViewItem.xib */; };
 		9DC770FA1CBF48DF00D1CDA8 /* VillainsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC770F91CBF48DF00D1CDA8 /* VillainsSplitViewController.swift */; };
 		9DC770FE1CBF4D5F00D1CDA8 /* Observe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC770FD1CBF4D5F00D1CDA8 /* Observe.swift */; };
+		9DC771021CBF4F9B00D1CDA8 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC771011CBF4F9B00D1CDA8 /* MainTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9DC770F31CBF3ED200D1CDA8 /* HeroCollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroCollectionViewItem.xib; sourceTree = "<group>"; };
 		9DC770F91CBF48DF00D1CDA8 /* VillainsSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainsSplitViewController.swift; sourceTree = "<group>"; };
 		9DC770FD1CBF4D5F00D1CDA8 /* Observe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observe.swift; sourceTree = "<group>"; };
+		9DC771011CBF4F9B00D1CDA8 /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				9DC770DA1CBF330000D1CDA8 /* AppDelegate.swift */,
+				9DC771011CBF4F9B00D1CDA8 /* MainTabViewController.swift */,
 				9DC770EB1CBF340300D1CDA8 /* VillainsTableViewController.swift */,
 				9DC770EF1CBF39E400D1CDA8 /* HeroesCollectionViewController.swift */,
 				9DC770ED1CBF35D400D1CDA8 /* Person.swift */,
@@ -168,6 +171,7 @@
 				9DC770EC1CBF340300D1CDA8 /* VillainsTableViewController.swift in Sources */,
 				9DC770FA1CBF48DF00D1CDA8 /* VillainsSplitViewController.swift in Sources */,
 				9DC770FE1CBF4D5F00D1CDA8 /* Observe.swift in Sources */,
+				9DC771021CBF4F9B00D1CDA8 /* MainTabViewController.swift in Sources */,
 				9DC770F01CBF39E400D1CDA8 /* HeroesCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

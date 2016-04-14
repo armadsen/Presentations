@@ -584,7 +584,20 @@
                             </menuItem>
                             <menuItem title="View" id="H8h-7b-M4v">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="View" id="HyV-fh-RgO"/>
+                                <menu key="submenu" title="View" id="HyV-fh-RgO">
+                                    <items>
+                                        <menuItem title="Show Heroes" keyEquivalent="1" id="xYT-q0-qBc">
+                                            <connections>
+                                                <action selector="showHeroes:" target="Ady-hI-5gd" id="n0q-qW-S7s"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show Villains" keyEquivalent="2" id="QsC-Rl-JzF">
+                                            <connections>
+                                                <action selector="showVillains:" target="Ady-hI-5gd" id="YtS-1e-4mw"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
                             </menuItem>
                             <menuItem title="Window" id="aUF-d1-5bR">
                                 <modifierMask key="keyEquivalentModifierMask"/>
@@ -652,10 +665,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--Tab View Controller-->
+        <!--Main Tab View Controller-->
         <scene sceneID="eaC-7A-qu3">
             <objects>
-                <tabViewController selectedTabViewItemIndex="0" id="WoG-Ac-5qb" sceneMemberID="viewController">
+                <tabViewController selectedTabViewItemIndex="0" id="WoG-Ac-5qb" customClass="MainTabViewController" customModule="HeroesAndVillains" customModuleProvider="target" sceneMemberID="viewController">
                     <tabViewItems>
                         <tabViewItem id="KM3-rm-mFJ"/>
                         <tabViewItem id="RbE-BA-ZfQ"/>
