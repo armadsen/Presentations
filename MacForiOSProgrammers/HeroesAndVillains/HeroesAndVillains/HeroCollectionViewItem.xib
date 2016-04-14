@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="145" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Yd-Sw-JMj">
+                    <rect key="frame" x="0.0" y="25" width="145" height="85"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" id="NxE-i0-u3E"/>
+                    <connections>
+                        <binding destination="2cW-Fj-Qp9" name="value" keyPath="representedObject.image" id="CNQ-G4-l3P"/>
+                    </connections>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Tft-H8-ZpT">
+                    <rect key="frame" x="54" y="0.0" width="37" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="lCA-7C-4J3">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="2cW-Fj-Qp9" name="value" keyPath="representedObject.name" id="wiz-NR-9h7"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Tft-H8-ZpT" firstAttribute="top" secondItem="8Yd-Sw-JMj" secondAttribute="bottom" constant="8" id="F4s-Jq-uQp"/>
+                <constraint firstItem="8Yd-Sw-JMj" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="HPT-KW-OGK"/>
+                <constraint firstItem="8Yd-Sw-JMj" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="aYN-vY-O8q"/>
+                <constraint firstItem="Tft-H8-ZpT" firstAttribute="centerX" secondItem="8Yd-Sw-JMj" secondAttribute="centerX" id="fhT-f2-RDe"/>
+                <constraint firstItem="8Yd-Sw-JMj" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="oaB-sa-ucu"/>
+                <constraint firstAttribute="trailing" secondItem="8Yd-Sw-JMj" secondAttribute="trailing" id="tHG-42-diR"/>
+                <constraint firstAttribute="bottom" secondItem="Tft-H8-ZpT" secondAttribute="bottom" id="xf6-Ia-Yfm"/>
+            </constraints>
+            <point key="canvasLocation" x="128.5" y="465"/>
+        </customView>
+        <collectionViewItem id="2cW-Fj-Qp9">
+            <connections>
+                <outlet property="imageView" destination="8Yd-Sw-JMj" id="Xgc-Rw-CzT"/>
+                <outlet property="textField" destination="Tft-H8-ZpT" id="6MD-J7-gkq"/>
+                <outlet property="view" destination="c22-O7-iKe" id="0VQ-KH-ERc"/>
+            </connections>
+        </collectionViewItem>
+    </objects>
+</document>

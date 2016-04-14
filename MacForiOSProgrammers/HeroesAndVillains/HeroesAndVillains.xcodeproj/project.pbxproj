@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC770DB1CBF330000D1CDA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC770DA1CBF330000D1CDA8 /* AppDelegate.swift */; };
+		9DC770DF1CBF330000D1CDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC770DE1CBF330000D1CDA8 /* Assets.xcassets */; };
+		9DC770E21CBF330000D1CDA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC770E01CBF330000D1CDA8 /* Main.storyboard */; };
+		9DC770EC1CBF340300D1CDA8 /* VillainsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC770EB1CBF340300D1CDA8 /* VillainsTableViewController.swift */; };
+		9DC770EE1CBF35D400D1CDA8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC770ED1CBF35D400D1CDA8 /* Person.swift */; };
+		9DC770F01CBF39E400D1CDA8 /* HeroesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC770EF1CBF39E400D1CDA8 /* HeroesCollectionViewController.swift */; };
+		9DC770F41CBF3ED200D1CDA8 /* HeroCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC770F31CBF3ED200D1CDA8 /* HeroCollectionViewItem.xib */; };
+		9DC770FA1CBF48DF00D1CDA8 /* VillainsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC770F91CBF48DF00D1CDA8 /* VillainsSplitViewController.swift */; };
+		9DC770FE1CBF4D5F00D1CDA8 /* Observe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC770FD1CBF4D5F00D1CDA8 /* Observe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DC770D71CBF330000D1CDA8 /* HeroesAndVillains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroesAndVillains.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC770DA1CBF330000D1CDA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DC770DE1CBF330000D1CDA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DC770E11CBF330000D1CDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DC770E31CBF330000D1CDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC770EB1CBF340300D1CDA8 /* VillainsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainsTableViewController.swift; sourceTree = "<group>"; };
+		9DC770ED1CBF35D400D1CDA8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9DC770EF1CBF39E400D1CDA8 /* HeroesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesCollectionViewController.swift; sourceTree = "<group>"; };
+		9DC770F31CBF3ED200D1CDA8 /* HeroCollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroCollectionViewItem.xib; sourceTree = "<group>"; };
+		9DC770F91CBF48DF00D1CDA8 /* VillainsSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainsSplitViewController.swift; sourceTree = "<group>"; };
+		9DC770FD1CBF4D5F00D1CDA8 /* Observe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC770D41CBF330000D1CDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC770CE1CBF330000D1CDA8 = {
+			isa = PBXGroup;
+			children = (
+				9DC770D91CBF330000D1CDA8 /* HeroesAndVillains */,
+				9DC770D81CBF330000D1CDA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC770D81CBF330000D1CDA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC770D71CBF330000D1CDA8 /* HeroesAndVillains.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC770D91CBF330000D1CDA8 /* HeroesAndVillains */ = {
+			isa = PBXGroup;
+			children = (
+				9DC770F21CBF3C6100D1CDA8 /* Sources */,
+				9DC770F11CBF3C5900D1CDA8 /* Resources */,
+			);
+			path = HeroesAndVillains;
+			sourceTree = "<group>";
+		};
+		9DC770F11CBF3C5900D1CDA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DC770DE1CBF330000D1CDA8 /* Assets.xcassets */,
+				9DC770E01CBF330000D1CDA8 /* Main.storyboard */,
+				9DC770F31CBF3ED200D1CDA8 /* HeroCollectionViewItem.xib */,
+				9DC770E31CBF330000D1CDA8 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9DC770F21CBF3C6100D1CDA8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9DC770DA1CBF330000D1CDA8 /* AppDelegate.swift */,
+				9DC770EB1CBF340300D1CDA8 /* VillainsTableViewController.swift */,
+				9DC770EF1CBF39E400D1CDA8 /* HeroesCollectionViewController.swift */,
+				9DC770ED1CBF35D400D1CDA8 /* Person.swift */,
+				9DC770F91CBF48DF00D1CDA8 /* VillainsSplitViewController.swift */,
+				9DC770FD1CBF4D5F00D1CDA8 /* Observe.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC770D61CBF330000D1CDA8 /* HeroesAndVillains */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC770E61CBF330000D1CDA8 /* Build configuration list for PBXNativeTarget "HeroesAndVillains" */;
+			buildPhases = (
+				9DC770D31CBF330000D1CDA8 /* Sources */,
+				9DC770D41CBF330000D1CDA8 /* Frameworks */,
+				9DC770D51CBF330000D1CDA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroesAndVillains;
+			productName = HeroesAndVillains;
+			productReference = 9DC770D71CBF330000D1CDA8 /* HeroesAndVillains.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC770CF1CBF330000D1CDA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Open Reel Software";
+				TargetAttributes = {
+					9DC770D61CBF330000D1CDA8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9DC770D21CBF330000D1CDA8 /* Build configuration list for PBXProject "HeroesAndVillains" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC770CE1CBF330000D1CDA8;
+			productRefGroup = 9DC770D81CBF330000D1CDA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC770D61CBF330000D1CDA8 /* HeroesAndVillains */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC770D51CBF330000D1CDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC770F41CBF3ED200D1CDA8 /* HeroCollectionViewItem.xib in Resources */,
+				9DC770DF1CBF330000D1CDA8 /* Assets.xcassets in Resources */,
+				9DC770E21CBF330000D1CDA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC770D31CBF330000D1CDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC770DB1CBF330000D1CDA8 /* AppDelegate.swift in Sources */,
+				9DC770EE1CBF35D400D1CDA8 /* Person.swift in Sources */,
+				9DC770EC1CBF340300D1CDA8 /* VillainsTableViewController.swift in Sources */,
+				9DC770FA1CBF48DF00D1CDA8 /* VillainsSplitViewController.swift in Sources */,
+				9DC770FE1CBF4D5F00D1CDA8 /* Observe.swift in Sources */,
+				9DC770F01CBF39E400D1CDA8 /* HeroesCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DC770E01CBF330000D1CDA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC770E11CBF330000D1CDA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC770E41CBF330000D1CDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DC770E51CBF330000D1CDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9DC770E71CBF330000D1CDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeroesAndVillains/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openreelsoftware.HeroesAndVillains;
+				PRODUCT_NAME = HeroesAndVillains;
+			};
+			name = Debug;
+		};
+		9DC770E81CBF330000D1CDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeroesAndVillains/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openreelsoftware.HeroesAndVillains;
+				PRODUCT_NAME = HeroesAndVillains;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC770D21CBF330000D1CDA8 /* Build configuration list for PBXProject "HeroesAndVillains" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC770E41CBF330000D1CDA8 /* Debug */,
+				9DC770E51CBF330000D1CDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC770E61CBF330000D1CDA8 /* Build configuration list for PBXNativeTarget "HeroesAndVillains" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC770E71CBF330000D1CDA8 /* Debug */,
+				9DC770E81CBF330000D1CDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC770CF1CBF330000D1CDA8 /* Project object */;
+}
